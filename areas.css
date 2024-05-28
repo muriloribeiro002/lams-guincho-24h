@@ -31,15 +31,16 @@
 
 @media (max-width: 450px) {
 .atendimento-bg{
-  padding: 0px;
+  padding: 0px 40px;
 }
 
-  .atendimento-grid a {
-    text-align: center; 
+  .atendimento-grid{
+
   }
   .atendimento h1{
     font-size: 2rem;
     padding-bottom: 40px;
+   
   }
 
   .atendimento{

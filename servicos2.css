@@ -1,12 +1,11 @@
 .servicos2-bg {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to bottom, #d6181f, #f08084);
+  background: linear-gradient(to bottom, #d11218, #e0484d);
 }
 
 .servicos2 {
   padding: 80px 40px;
-  color: #00152f;
 
   width: 1150px;
 }
@@ -23,10 +22,11 @@ h2, h3{
 
 .servicos2 h1 {
   font-size: 2.5rem;
+  color: white;
 }
 
 .servicos2 h2 {
-  color: white;
+  color: #00152f;
   font-weight: 600;
   font-size: 3.5rem;
   padding: 5px 0px 35px 0px;
@@ -60,6 +60,7 @@ h2, h3{
 
 .servicos2-texto p {
   text-align: justify;
+  color: white;
 }
 
 @media (max-width: 500px) {
