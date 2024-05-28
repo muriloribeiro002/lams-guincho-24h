@@ -12,8 +12,13 @@
 }
 
 .servicos2 h1,
-h2 {
+h2, h3{
   text-align: center;
+}
+
+.servicos2 H3{
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .servicos2 h1 {
@@ -53,21 +58,24 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 500px) {
+.servicos2-texto p {
+  text-align: justify;
+}
 
-  .servicos2{ 
+@media (max-width: 500px) {
+  .servicos2 {
     padding: 80px 20px;
   }
   .servicos2 h1 {
     font-size: 2rem;
   }
   .servicos2 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 5px 0px 25px;
   }
 
-  .servicos2-itens img{
-    width: 130px;
+  .servicos2-itens img {
+    width: 150px;
   }
 
   .servicos2 p {
@@ -79,7 +87,15 @@ h2 {
     gap: 15px;
   }
 
+ .servicos2-itens li:last-child{
+  grid-column: 1/-1 ;
+  justify-items: center;
+ }
+ .servicos2-itens h3 {
+  padding-top: 8px;
+}
+
   .servicos2-itens li {
-    padding: 5px 20px;
+    padding: 20px 20px;
   }
 }

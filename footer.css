@@ -5,11 +5,15 @@
 
 .footer h1 {
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer a {
-  color: white;
+ color:#d7fffa;
+}
+
+.footer li{
+  padding-bottom: 10px;
 }
 
 .footer_bg {
@@ -36,10 +40,11 @@
 
   .footer_bg {
     justify-items: start;
-    padding: 40px 50px;
+    padding: 40px 30px; grid-template-columns: 1fr 1fr;
   }
   .footer_bg img {
     padding: 0;
     width: 200px;
+   
   }
 }

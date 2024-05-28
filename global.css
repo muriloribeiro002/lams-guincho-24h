@@ -1,8 +1,11 @@
 body {
-  font-family: "Fira Sans", Arial, sans-serif;
+  font-family: "poppins", Arial, sans-serif;
   margin: 0px;
   color: #141414;
+  background-color: #dedede;
 }
+
+
 
 a{
   text-decoration: none;

@@ -1,14 +1,13 @@
 .container_introducao {
   height: 750px;
   background-image: url("caminhaoazul.jpg");
-  background-size: cover; 
+  background-size: cover;
   background-position: left center;
   display: grid;
-  background-attachment: fixed;
   padding-top: 120px;
   padding: 160px 0px;
   display: grid;
-  justify-content: left;
+  justify-content: center;
 }
 
 .introducao-conteudo {
@@ -23,7 +22,6 @@
 .introducao-conteudo h2 {
   text-align: left;
   color: rgb(255, 255, 255);
-  text-shadow: -2px 2px rgb(255, 17, 0);
   font-size: 57px;
   font-weight: 600;
   margin: 0; /* Adicionado para remover margens padrão dos títulos */
@@ -33,13 +31,14 @@
   font-size: 3rem;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-self: start;
   background-color: #d6181f;
   border-radius: 3rem;
   color: #ffffff;
-  font-weight: 600;
-  padding: 15px 25px;
+  font-weight: 700;
+  padding: 0px 25px;
+  max-width: 500px;
 }
 
 .introducao-conteudo a:hover {
@@ -66,22 +65,42 @@
   position: relative;
 }
 
+#wh {
+  position: fixed;
+  width: 120px;
+  border: 1px solid #39af41;
+  border-radius: 100%;
+  bottom: 35px;
+  right: 32px;
+}
+
+
 @media (max-width: 540px) {
-  .introducao-conteudo{
+  #wh {
+    position: fixed;
+    width: 80px;
+    border: 1px solid #39af41;
+    border-radius: 100%;
+    bottom: 15px;
+    right: 12px;
+  }
+  
+  .introducao-conteudo {
     padding: 10px;
   }
   .introducao-conteudo h2 {
     font-size: 2.2rem;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
   }
 
-  .introducao-conteudo img{
+  .introducao-conteudo img {
     width: 3rem;
   }
 
   .introducao-conteudo a {
     font-size: 1.5rem;
     padding: 1rem;
+    max-width: 300px;
   }
   .introducao-conteudo p {
     font-size: 1.3rem;
@@ -99,3 +118,9 @@
     padding-top: 45px;
   }
 }
+@media (max-width: 400px) {
+  .introducao-conteudo {
+    padding: 2rem 2rem 3rem 2rem;
+  }
+}
+
