@@ -1,11 +1,10 @@
 .container_introducao {
   height: 750px;
- /* background-image: url("caminhaoazul.jpg");
-  background-size: cover;  para ajustar a imagem ao tamanho do elemento 
+  background-image: url("caminhaoazul.jpg");
+  background-size: cover; 
   background-position: left center;
   display: grid;
-  background-attachment: fixed;*/
-  background:#002d64 ;
+  background-attachment: fixed;
   padding-top: 120px;
   padding: 160px 0px;
   display: grid;
