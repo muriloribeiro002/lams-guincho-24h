@@ -1,17 +1,20 @@
 .container_introducao {
   height: 750px;
-  background-image: url("caminhaoazul.jpg");
-  background-size: cover; /* para ajustar a imagem ao tamanho do elemento */
+ /* background-image: url("caminhaoazul.jpg");
+  background-size: cover;  para ajustar a imagem ao tamanho do elemento 
   background-position: left center;
   display: grid;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
+  background:#002d64 ;
   padding-top: 120px;
   padding: 160px 0px;
+  display: grid;
+  justify-content: left;
 }
 
 .introducao-conteudo {
   display: grid;
-  gap: 100px;
+  wgap: 80px;
   padding: 20px;
 }
 
@@ -19,7 +22,7 @@
 #D6181F*/
 
 .introducao-conteudo h2 {
-  text-align: center;
+  text-align: left;
   color: rgb(255, 255, 255);
   text-shadow: -2px 2px rgb(255, 17, 0);
   font-size: 57px;
@@ -32,7 +35,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  justify-self: center;
+  justify-self: start;
   background-color: #d6181f;
   border-radius: 3rem;
   color: #ffffff;
@@ -52,7 +55,7 @@
 
 .introducao-conteudo p {
   color: rgb(255, 255, 255);
-  text-align: center;
+  text-align: left;
   font-size: 30px;
 }
 
@@ -70,7 +73,7 @@
   }
   .introducao-conteudo h2 {
     font-size: 2.2rem;
-    
+    padding-bottom: 40px;
   }
 
   .introducao-conteudo img{
@@ -83,15 +86,17 @@
   }
   .introducao-conteudo p {
     font-size: 1.3rem;
+    padding-bottom: 80px;
   }
 
   .introducao-conteudo {
-    gap: 5rem;
-    padding: 1.5rem;
+    display: inline-block;
+    wgap: 5rem;
+    padding: 1rem 3.5rem;
     align-items: start;
   }
   .container_introducao {
-    height: 630px;
+    height: 530px;
     padding-top: 45px;
   }
 }
