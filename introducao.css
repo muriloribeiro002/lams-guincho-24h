@@ -22,7 +22,7 @@
 .introducao-conteudo h2 {
   text-align: left;
   color: rgb(255, 255, 255);
-  font-size: 57px;
+  font-size: 3rem ;
   font-weight: 600;
   margin: 0; /* Adicionado para remover margens padrão dos títulos */
 }
@@ -40,6 +40,8 @@
   padding: 0px 25px;
   max-width: 500px;
 }
+
+
 
 .introducao-conteudo a:hover {
   background-color: rgb(205, 14, 0);
@@ -74,6 +76,12 @@
   right: 32px;
 }
 
+@media (min-width: 540px) {
+  .introducao-conteudo a{
+    align-self: end;
+    height: 120px;
+  }
+}
 
 @media (max-width: 540px) {
   #wh {
@@ -84,7 +92,7 @@
     bottom: 15px;
     right: 12px;
   }
-  
+
   .introducao-conteudo {
     padding: 10px;
   }
@@ -123,4 +131,3 @@
     padding: 2rem 2rem 3rem 2rem;
   }
 }
-
