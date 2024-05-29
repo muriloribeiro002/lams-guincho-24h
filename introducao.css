@@ -70,8 +70,6 @@
 #wh {
   position: fixed;
   width: 120px;
-  border: 1px solid #39af41;
-  border-radius: 100%;
   bottom: 35px;
   right: 32px;
 }
@@ -87,8 +85,6 @@
   #wh {
     position: fixed;
     width: 80px;
-    border: 1px solid #39af41;
-    border-radius: 100%;
     bottom: 15px;
     right: 12px;
   }
